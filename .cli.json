@@ -1,0 +1,11 @@
+{
+  "name": "terminal",
+  "configureDotEnv": true,
+  "integrations": [
+    {
+      "name": "terminal-list-readers",
+      "clients": ["html"],
+      "servers": ["node"]
+    }
+  ]
+}
