@@ -3,8 +3,8 @@
   "configureDotEnv": true,
   "integrations": [
     {
-      "name": "terminal-list-readers",
-      "clients": ["html"],
+      "name": "stripe-terminal-list-readers",
+      "clients": ["vue"],
       "servers": ["node"]
     }
   ]
