@@ -1,5 +1,5 @@
 {
-  "name": "terminal",
+  "name": "terminal-list-readers",
   "configureDotEnv": true,
   "integrations": [
     {
