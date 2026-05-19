@@ -18,6 +18,13 @@ const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY, {
   },
 });
 
+app.get("/readers", async (req, res) => {
+  try {
+    const { data: readers} = await stripe.terminal.readers.list
+    res.send({ readerslist: readers });
+  } catch (e) {
+    res.send({ error: { message: e.message } });
+
 app.listen(4242, () =>
   console.log(`Node server listening at http://localhost:4242`)
 );
