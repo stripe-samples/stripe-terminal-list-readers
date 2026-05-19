@@ -9,7 +9,7 @@ app.use(express.json({}));
 // See https://docs.stripe.com/keys-best-practices and find your
 // keys at https://dashboard.stripe.com/apikeys.
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY, {
-  apiVersion: "2020-08-27",
+  apiVersion: "2025-11-17.clover",
   appInfo: {
     // For sample support and debugging, not required for production:
     name: "stripe-samples/terminal-series/stripe-terminal-list-readers",
